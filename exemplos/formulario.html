@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+</head>
+<body>
+
+<h1>formulario</h1>
+
+<form>
+    <label for="input_nome">Nome</label><br>
+    <input id="input_nome" type="text" placeholder="Heitor" required>
+
+    <br>
+
+    <label for="input_email">e-mail</label><br>
+    <input id="input_email" type="email" placeholder="Heitor@gmail" required>
+
+    <br>
+
+    <label for="input_senha">senha</label><br>
+    <input id="input_senha" type="password" required>
+
+    <br>
+
+    <label for="text_descricao">Descrição</label><br>
+    <textarea id="text_descricao" cols="50" rows="10"></textarea>
+
+    <br>
+    <label><strong>Gênero</strong></label><br>
+    <label for="radio_m">masculino</label>
+    <input id="radio_m" type="radio" value="m" name="genero"><br>
+    <label for="radio_f">feminino</label>
+    <input id="radio_f" type="radio" value="f" name="genero"><br>
+
+    <br><br>
+
+    <label for="menu_cidade">cidade</label>
+    <select id="menu_cidade">
+        <optgroup label="interior">
+            <option>guararapes</option>
+            <option>araçatuba</option>
+            <option>birigui</option>
+            <option>rubiacea</option>
+        </optgroup>
+        <optgroup label="capitais">
+            <option>são paulo</option>
+            <option>rio de janeiro</option>
+            <option>brasilia</option>
+        </optgroup>
+    </select>
+
+    <br><br>
+
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+</form>
+
+
+</body>
+</html>
