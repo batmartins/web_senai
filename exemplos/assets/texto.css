@@ -1,0 +1,21 @@
+p {
+    color: red;
+}
+
+.black {
+    color:red;
+    background: black;
+    display: inline;
+}
+#texto-maior{
+    font-size: 50px;
+    font-family: "Comic Sans MS";
+    display: inline;
+}
+
+#texto-maior:hover{
+    color: blue;
+    font-size: 50px;
+    font-family: "Comic Sans MS";
+    background: yellow;
+}

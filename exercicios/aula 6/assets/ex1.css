@@ -1,0 +1,14 @@
+.titulo{
+    color: red;
+    text-align: center;
+}
+.frase{
+    color: white;
+    background: red;
+    font-size: 36px;
+    font-family: arial;
+    display: inline;
+}
+body{
+    background: black;
+}
