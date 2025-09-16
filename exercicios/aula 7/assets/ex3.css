@@ -1,0 +1,40 @@
+body {
+    background: lightblue;
+    font-size: 36px;
+    text-align: center;
+}
+div {
+    font-size: 36px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.div1{
+    background: green;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+.div2{
+    background: blue;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+}
+.div3{
+    background: yellow;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+.div4{
+    background: green;
+    height: 200px;
+    width: 50%;
+    border-radius: 40px;
+}
+div:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}

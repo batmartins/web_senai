@@ -1,4 +1,29 @@
-.verde {
+.div1 {
     background: green;
-    ;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+body {
+    background: lightblue;
+}
+.div2 {
+    background: blue;
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.div3 {
+    background: yellow;
+    height: 200px;
+    width: 50%;
+    float: right;
+}
+div {
+    font-size: 36px;
+    text-align: center;
+}
+p {
+    font-size: 36px;
+    text-align: center;
 }
