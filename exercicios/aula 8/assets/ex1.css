@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vermelho {
+    height: 50px;
+    background: red;
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+
+}
+.logo {
+    font-size: 32px;
+}
+
+.cinza {
+    height: 300px;
+    background: lightblue;
+    display: flex;
+    margin: 15px;
+}
+.prata {
+    display: flex;
+}
+
+.prata div {
+    background: silver;
+    height: 250px;
+    margin: 15px;
+    flex: auto;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 15px;
+
+}
