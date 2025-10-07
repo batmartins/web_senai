@@ -39,7 +39,7 @@ a:hover {
 .prata div {
     background: silver;
     height: 250px;
-    margin: 40px;
+    margin: 30px;
     flex: auto;
     display: flex;
     flex-direction: column;
