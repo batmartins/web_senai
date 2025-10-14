@@ -1,0 +1,42 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1px 10px;
+}
+table {
+    background: darkblue;
+    font-family: arial, serif;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+.verde {
+    color: lightgreen;
+}
+.branco {
+    color: white;
+}
+.azul {
+    color: lightskyblue;
+}
+.vermelho {
+    color: red;
+}
+.amarelo {
+    color: yellow;
+}
+.time {
+    text-align: left;
+    background: white;
+    color: darkblue;
+    width: 100x;
+    font-weight:bold ;
+}
+.p {
+    background: deepskyblue;
+    color: darkblue;
+    font-weight: bold;
+}
